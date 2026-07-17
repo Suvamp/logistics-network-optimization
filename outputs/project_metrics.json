@@ -1,0 +1,36 @@
+{
+  "network": {
+    "nodes": 29700,
+    "edges": 77638,
+    "total_road_km": 10373.0
+  },
+  "problem_size": {
+    "customers": 150,
+    "candidate_warehouses": 20,
+    "total_demand_packages": 735
+  },
+  "p_median": {
+    "selected_warehouses": [
+      3,
+      5,
+      19
+    ],
+    "selected_site_ids": [
+      "WH_03",
+      "WH_05",
+      "WH_19"
+    ]
+  },
+  "vrp": {
+    "naive_baseline_km": 271.3,
+    "optimized_fleet_km": 265.6,
+    "distance_reduction_pct": 2.1,
+    "vehicles_deployed": 9,
+    "customers_served_pct": 100.0
+  },
+  "distance_analysis": {
+    "mean_haversine_km": 5.47,
+    "mean_network_km": 6.89,
+    "mean_detour_factor": 1.278
+  }
+}

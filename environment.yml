@@ -1,0 +1,20 @@
+name: logistics_optimization
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas=0.14
+  - osmnx=1.9
+  - networkx
+  - shapely
+  - pandas
+  - folium=0.15
+  - matplotlib=3.8
+  - numpy<2.0
+  - scipy=1.12
+  - rtree=1.2
+  - ipykernel
+  - pip
+  - pip:
+    - ortools==9.8.3296
+    - pulp==2.7.0
